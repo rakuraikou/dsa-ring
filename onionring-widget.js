@@ -28,11 +28,11 @@ function randomSite() {
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
-<table>
-  <tr>
-    <td>This site isn't part of ${ringName} yet. You should talk to <a href="https://rakuraikou.tumblr.com/">lenny</a> to have your site added to the list!</td>
-  </tr>
-</table>
+  <div class="justify-content-center">
+    <img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617371525240/left.png">
+    <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054448990583791637/icon_2.gif"></a>
+    <img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617686089789/right.png">
+  </div>
   `);
 }
 else {
