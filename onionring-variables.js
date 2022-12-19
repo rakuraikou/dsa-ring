@@ -11,7 +11,6 @@ var sites = [
 'https://udachox.tumblr.com/',
 'https://desperrados.tumblr.com/',
 'https://squidknees.tumblr.com/',
-'https://corbestia.tumblr.com/',
 'https://glowincorporated.tumblr.com/'
 ];
 
