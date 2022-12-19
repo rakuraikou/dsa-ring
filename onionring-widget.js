@@ -57,22 +57,9 @@ else {
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   //<td class='webring-info'>This site is part of the ${ringName} webring</br>
   tag.insertAdjacentHTML('afterbegin', `
-  <table>
-    <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440115184877618/left.png"></a></td>
-      <td class='webring-info'>
-      DSA Tumblr ring!
-      <br>
-      <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054448990583791637/icon_2.gif"></a>
-      </br>
-      <span class='webring-links'>
-        ${randomText}
-        ${indexText}
-        <a href='https://garlic.garden/onionring/'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440653783834705/what.png"></a>
-      </span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440114849325106/right.png"></a></td>
-    </tr>
-  </table>
+  <a href='${sites[previousIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440115184877618/left.png"></a>
+  <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054448990583791637/icon_2.gif"></a>
+  <a href='${sites[nextIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440114849325106/right.png"></a>
   `);
 
 }
