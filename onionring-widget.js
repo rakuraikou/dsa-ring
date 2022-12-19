@@ -57,9 +57,11 @@ else {
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   //<td class='webring-info'>This site is part of the ${ringName} webring</br>
   tag.insertAdjacentHTML('afterbegin', `
-  <a href='${sites[previousIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440115184877618/left.png"></a>
-  <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054448990583791637/icon_2.gif"></a>
-  <a href='${sites[nextIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440114849325106/right.png"></a>
+  <div class="justify-content-center">
+    <a href='${sites[previousIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440115184877618/left.png"></a>
+    <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054448990583791637/icon_2.gif"></a>
+    <a href='${sites[nextIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054440114849325106/right.png"></a>
+  </div>
   `);
 
 }
