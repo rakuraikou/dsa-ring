@@ -29,9 +29,9 @@ function randomSite() {
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
   <div class="justify-content-center">
-    <img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617371525240/left.png">
+    <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617371525240/left.png"></a>
     <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054448990583791637/icon_2.gif"></a>
-    <img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617686089789/right.png">
+    <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617686089789/right.png"></a>
   </div>
   `);
 }
@@ -58,9 +58,9 @@ else {
   //<td class='webring-info'>This site is part of the ${ringName} webring</br>
   tag.insertAdjacentHTML('afterbegin', `
   <div class="justify-content-center">
-    <a href='${sites[previousIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617371525240/left.png"></a>
-    <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054448990583791637/icon_2.gif"></a>
-    <a href='${sites[nextIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617686089789/right.png"></a>
+    <a href='${sites[previousIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617371525240/left.png" alt="left"></a>
+    <a href="https://rakuraikou.tumblr.com/ring"><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054448990583791637/icon_2.gif" alt="index"></a>
+    <a href='${sites[nextIndex]}'><img src="https://cdn.discordapp.com/attachments/712123731367165953/1054470617686089789/right.png" alt="right"></a>
   </div>
   `);
 
