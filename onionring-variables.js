@@ -10,7 +10,6 @@ var sites = [
 'https://rakuraikou.tumblr.com/',
 'https://udachox.tumblr.com/',
 'https://desperrados.tumblr.com/',
-'https://squidknees.tumblr.com/',
 'https://glowincorporated.tumblr.com/',
 'https://peachiibon.tumblr.com/',
 'https://fool-shroom.tumblr.com/'
